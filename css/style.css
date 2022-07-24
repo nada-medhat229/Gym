@@ -1,0 +1,771 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+  background-color: #fcfcfc;
+}
+/* navbar */
+.navbar > .container > img {
+  display: none;
+}
+.navbar-nav {
+  width: 100%;
+  font-weight: bold;
+  font-family: "Tajawal", sans-serif;
+}
+.navbar-nav .navbar-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-nav .navbar-content .content .nav-item .nav-link {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  color: #000;
+  padding-left: 1rem;
+}
+.navbar-nav .navbar-content .content .nav-item .active,
+.navbar-nav .navbar-content .content .nav-item .nav-link:hover {
+  color: #fad61c;
+}
+.navbar-nav .navbar-content .content .nav-item .nav-link.active::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #fad61c;
+  bottom: 19px;
+  width: 20px;
+}
+.navbar-content .content {
+  display: flex;
+}
+.navbar-content .signup {
+  display: flex;
+}
+
+.signup .contact-btn {
+  position: relative;
+  background-image: linear-gradient(#fad61c, #fad61c);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+  background-color: #000;
+  color: #fff;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+}
+.center-logo .nav-item {
+  width: 60%;
+}
+.signup .contact-btn:hover {
+  background-size: 100% 100%;
+  color: #000;
+}
+/* ----------end navbar------------------- */
+/* ----------start header section-------------------  */
+section .container .right-part {
+  content: "";
+  position: absolute;
+  height: 194px;
+  background-color: #dfdfdf;
+  width: 3px;
+  border-radius: 20px;
+  right: -2.5%;
+}
+section .container .right-part .fill {
+  height: 30%;
+  background-color: #fad61c;
+  border-radius: 10px;
+}
+section .container .left-part {
+  position: absolute;
+  left: -3%;
+}
+section .container .left-part a {
+  color: #000;
+  opacity: 0.5;
+}
+section .container .left-part a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+section .center-part .text-content {
+  top: 28%;
+}
+section .center-part .text-content h3 {
+  color: #fad61c;
+}
+section .center-part .text-content p {
+  font-size: 24px;
+  width: 55%;
+}
+section .center-part h4 span {
+  color: #fad61c;
+}
+section .center-part .text-content button {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fad61c;
+  border: none;
+  font-weight: 500;
+}
+section .center-part .arrow {
+  border-radius: 50%;
+  background-color: #fad51cc8;
+  width: 48px;
+  height: 43px;
+  text-align: center;
+  margin: auto;
+}
+/* ----------end header section-------------------  */
+/* ----------start how us section-------------------  */
+.how-us {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.how-us .first-desc {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  border-radius: 9px;
+}
+.how-us .first-desc:hover {
+  transform: translateY(-5%);
+  border: 1px solid #fad61c;
+}
+.how-us .first-desc img {
+  transition: 0.9s ease-in-out transform;
+  width: 7%;
+  padding-right: 10px;
+}
+.how-us .first-desc:hover img {
+  transform: rotateY(180deg);
+}
+/* ----------end how us section-------------------  */
+/* ----------start why us section-------------------  */
+.why {
+  background-color: #fff;
+}
+.why .row img {
+  width: 35%;
+}
+.why .desc {
+  color: #404040;
+  font-size: 18px;
+  font-weight: 500;
+}
+.why .row p {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+.why .row .move {
+  transform: translateY(-25%);
+}
+/* ----------end why us section-------------------  */
+/* ----------start Advantages section-------------------  */
+.Advantages {
+  background-color: #f9f9f9;
+}
+.Advantages .st-advan {
+  background-color: #fff;
+  border-radius: 10px 10px 10px 70px;
+}
+.Advantages .nd-advan {
+  background-color: #fff;
+  border-radius: 10px 10px 70px;
+}
+.Advantages .st-advan img,
+.Advantages .nd-advan img {
+  transition: 0.5s ease-in-out transform;
+  width: 50%;
+}
+.Advantages .st-advan div,
+.Advantages .nd-advan div {
+  width: 120px;
+  height: 77px;
+  border-radius: 10px;
+  background-color: #fcea8d;
+  margin: auto;
+}
+.Advantages .st-advan:hover,
+.Advantages .nd-advan:hover {
+  transform: translateY(-5%);
+  border: 1px solid #fad61c;
+}
+.Advantages .st-advan:hover img,
+.Advantages .nd-advan:hover img {
+  transform: rotateY(180deg);
+}
+/* ----------end Advantages section-------------------  */
+/* ----------start offers section-------------------  */
+.offers {
+  position: relative;
+}
+
+/* ----------end offers section-------------------  */
+/* ----------start welcome section-------------------  */
+.welcome .text-welcome {
+  top: 30%;
+}
+.welcome h3 {
+  color: #fad61c;
+}
+.welcome p {
+  color: #404040;
+  font-weight: 500;
+  width: 65%;
+}
+.welcome a {
+  text-decoration: none;
+}
+.welcome .text-welcome h6 {
+  display: none;
+}
+/* ----------end welcome section-------------------  */
+/* ----------start package section-------------------  */
+.packages {
+  background-color: #fff;
+  padding-bottom: 6rem;
+}
+.packages .package-part1 {
+  background-color: #fcfcfc;
+  width: 30%;
+  border-radius: 20px;
+}
+.packages .package-part {
+  position: relative;
+  background-color: #fcea8d;
+  width: 30%;
+  border-radius: 20px 20px 0 0;
+}
+.packages .package-part::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15%;
+  background-color: #fcea8d;
+  border-radius: 0 0 20px 20px;
+  right: 0%;
+}
+.packages .package-part input[type="radio"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+  background-clip: content-box;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 0;
+}
+.packages .package-part input[type="radio"]:checked {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+input[type="radio"] {
+  appearance: none;
+
+  width: 15px;
+  height: 15px;
+
+  padding: 3px;
+  background-clip: content-box;
+  border: 1px solid #fad61c;
+  border-radius: 50%;
+  margin-right: 0;
+}
+input[type="radio"]:checked {
+  border: 1px solid #fad61c;
+  background-color: #fad61c;
+}
+
+/* ----------end package section-------------------  */
+/* ----------start owl-carousel section-------------------  */
+.client {
+  padding-right: 5rem;
+}
+.owl-carousel .item {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+}
+.owl-carousel .item .persone {
+  transform: translate(-80%, -50%);
+  width: 18%;
+}
+.owl-carousel .item .qoute {
+  width: 40px;
+  height: 30px;
+  opacity: 0.5;
+}
+.owl-dots {
+  display: none;
+}
+.client .owl-carousel .item p .fa-star{
+  width: 15px;
+}
+/* ----------end owl-carousel section-------------------  */
+/* ----------start subscribe section-------------------  */
+.subscribe .text-content {
+  top: 22%;
+}
+.subscribe form {
+  display: flex;
+  position: relative;
+  width: 31rem;
+  max-width: 100%;
+  margin: auto;
+}
+.subscribe form input[type="email"] {
+  border: 1px solid #ececec;
+  padding: 10px;
+  width: 100%;
+  border-radius: 3px;
+  height: 45px;
+}
+.subscribe form input[type="email"]:focus {
+  outline: none;
+}
+.subscribe form input[type="submit"] {
+  width: 21%;
+  height: 45px;
+  background-color: #fad61c;
+  border-radius: 3px 0 0 3px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-left: none;
+  transform: translateX(65px);
+}
+.subscribe form .send {
+  position: absolute;
+  left: 19%;
+  top: 25%;
+  transform: rotate(45deg);
+}
+.subscribe .social {
+  bottom: 6%;
+  right: 20%;
+}
+.subscribe .social li {
+  color: #9a9a9a;
+  padding-bottom: 5px;
+}
+.subscribe .social .bi {
+  color: #fad61c;
+  padding-left: 10px;
+}
+/* ----------end subscribe section-------------------  */
+/* ----------stert footer section-------------------  */
+.footer .right {
+  background-color: #fbe98c;
+  border-radius: 80px 0 0 0;
+}
+.footer .right img {
+  width: 30%;
+  border-left: 2px solid #c9c9c9;
+}
+.footer
+  .navbar-nav
+  .navbar-content
+  .content
+  .nav-item
+  .nav-link.active::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #000;
+  bottom: 5px;
+  width: 20px;
+}
+.footer .navbar-nav .navbar-content .content .nav-item .nav-link {
+  color: #404040;
+}
+.footer .navbar-nav .navbar-content .content .nav-item .active,
+.footer .navbar-nav .navbar-content .content .nav-item .nav-link:hover {
+  color: #000;
+  font-weight: 600;
+}
+.footer .left p {
+  font-size: 16px;
+}
+.footer .left img {
+  width: 14%;
+}
+/* ----------end footer section-------------------  */
+/* ---------------media------------------ */
+
+@media (max-width: 1399.98px) {
+  .welcome .text-welcome {
+    padding-right: 0px !important;
+  }
+  .subscribe h4 {
+    padding: 2rem !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+  }
+  .subscribe form {
+    padding-right: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  .subscribe form .send {
+    left: 20%;
+  }
+  .subscribe .social {
+    bottom: 4%;
+  }
+  .footer .left p {
+    font-size: 13px;
+  }
+  .footer .right {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+  .why .row img {
+    width: 30%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .welcome .text-welcome p {
+    font-size: 20px !important;
+    width: 55%;
+  }
+  .subscribe h4 {
+    padding: 1rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .subscribe form {
+    padding-right: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  .subscribe form .send {
+    left: 23%;
+  }
+  .subscribe .social {
+    bottom: 2%;
+  }
+  .footer .right {
+    width: 55%;
+    padding-right: 0.5rem !important;
+    padding-left: 0rem !important;
+  }
+  .footer .right img {
+    padding-left: 1rem !important;
+  }
+  .footer .navbar-content .content .nav-item {
+    padding-left: 0.5rem !important;
+  }
+  .navbar-nav .navbar-content {
+    width: 100%;
+  }
+  .offers .paragraph {
+    font-size: 10px;
+  }
+}
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    border: 1px solid #fad61c;
+    color: #fad61c;
+  }
+  .navbar > .container > img {
+    display: block;
+  }
+  .navbar-nav img {
+    display: none;
+  }
+  .navbar-nav .navbar-content,
+  .navbar-content .content,
+  .navbar-content .signup {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .navbar-nav .navbar-content .content .nav-item {
+    padding-right: 10px;
+  }
+  .navbar-nav .navbar-content .content .nav-item .nav-link.active::before {
+    display: none;
+  }
+  section .center-part .text-content p {
+    width: 65%;
+    font-size: 14px;
+  }
+
+  .welcome .text-welcome h3 {
+    font-size: 16px;
+  }
+  .welcome .text-welcome p {
+    font-size: 16px !important;
+    width: 50%;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+  .packages .package-part1,
+  .packages .package-part {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .packages .package-part {
+    border-radius: 20px;
+  }
+  .packages .package-part::after {
+    width: 0%;
+    height: 0%;
+  }
+  .subscribe .text-content {
+    top: 19%;
+    padding-left: 1rem !important;
+  }
+  .subscribe h4 {
+    padding: 0rem !important;
+    padding-bottom: 0.5rem !important;
+    margin-right: 1rem !important;
+    margin-left: 0rem !important;
+    font-size: 18px;
+  }
+  .subscribe form {
+    padding-right: 1rem !important;
+    margin-right: 0rem !important;
+  }
+  .subscribe form .send {
+    left: 23%;
+  }
+  .subscribe .social {
+    bottom: 0%;
+  }
+  .subscribe .social li {
+    padding-bottom: 0px;
+  }
+  .subscribe form input[type="submit"] {
+    width: 30%;
+    height: 40px;
+    transform: translateX(42px);
+  }
+  .subscribe form input[type="email"] {
+    height: 40px;
+  }
+  .footer .footer-data {
+    flex-direction: column;
+  }
+  .footer .right {
+    width: 100%;
+  }
+  .footer .footer-data .navbar-nav .navbar-content,
+  .footer .footer-data .navbar-nav .navbar-content .content {
+    flex-direction: row;
+  }
+  .footer .left {
+    padding-top: 0 !important;
+  }
+  .navbar-nav .navbar-content .content .nav-item {
+    padding-right: 0px;
+  }
+  .navbar .logo {
+    width: 35%;
+  }
+  .why .row p {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .why .row .move {
+    transform: translateY(0);
+  }
+  .footer .left img {
+    width: 18%;
+  }
+}
+@media (min-width: 768px) {
+  .Advantages .st-advan,
+  .Advantages .nd-advan {
+    width: 30% !important;
+  }
+  .offers .st-offer,
+  .offers .nd-offer,
+  .offers .rd-offer {
+    width: 33% !important;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .offers {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .offers p {
+    padding-bottom: 0 !important;
+  }
+  .offers .paragraph div,
+  .offers .paragraph div h4 {
+    font-size: 10px;
+  }
+  .offers p {
+    font-size: 10px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .profile .nav,
+  .profile .tab-content {
+    margin-left: 0px !important;
+  }
+  section .container .right-part {
+    height: 200px;
+  }
+  section .center-part .text-content p {
+    display: none;
+  }
+  .Advantages .st-advan,
+  .Advantages .nd-advan {
+    margin-bottom: 3rem !important;
+    width: 95% !important;
+    margin: auto;
+  }
+  .offers p {
+    padding-bottom: 0 !important;
+  }
+  .offers .st-offer,
+  .offers .nd-offer,
+  .offers .rd-offer {
+    margin-bottom: 3rem !important;
+    width: 95% !important;
+    margin: auto;
+  }
+  .offers span {
+    display: none;
+  }
+  .welcome .text-welcome {
+    margin-right: 16px !important;
+  }
+  .welcome .text-welcome p {
+    font-size: 14px !important;
+    width: 40%;
+  }
+  .subscribe h4 {
+    font-size: 14px;
+  }
+  .subscribe form input[type="submit"] {
+    transform: translateX(15px);
+  }
+  .subscribe form .send {
+    left: 15%;
+  }
+  .subscribe .social {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section .container .left-part,
+  section .container .rigt-part {
+    display: none !important;
+  }
+  section .center-part .text-content {
+    padding-right: 10px !important;
+    top: 12%;
+  }
+  section .center-part .text-content h3 {
+    font-size: 20px;
+  }
+  section .center-part .text-content button {
+    width: 120px;
+    height: 35px;
+    margin-top: 5px !important;
+    margin-right: 10px;
+  }
+  .how-us .image {
+    margin-top: 3rem !important;
+  }
+  .welcome .text-welcome h6 {
+    display: inline;
+    color: #fad61c;
+  }
+  .welcome .text-welcome .signup {
+    padding-top: 2rem !important;
+  }
+  .welcome .text-welcome h3,
+  .welcome .text-welcome p {
+    display: none;
+  }
+  .client {
+    padding-right: 1rem;
+  }
+  .owl-carousel {
+    padding-right: 1.2rem;
+  }
+  .subscribe {
+    padding-bottom: 2rem;
+  }
+  .subscribe img {
+    display: none;
+  }
+  .subscribe .text-content {
+    position: relative !important;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .subscribe h4 {
+    font-size: 20px;
+    padding-bottom: 1rem !important;
+    margin-right: 0rem !important;
+  }
+  .subscribe form .send {
+    left: 13%;
+  }
+  .subscribe form {
+    padding-right: 0.25rem !important;
+  }
+  .footer .navbar-content .content .nav-item {
+    padding-left: 3px !important;
+  }
+  .footer .footer-data .navbar-nav .navbar-content .content {
+    justify-content: space-between;
+  }
+  .footer .right {
+    border-radius: 0 0 0 0;
+  }
+  .footer .footer-data .navbar-nav .navbar-content,
+  .footer .footer-data .navbar-nav .navbar-content .content {
+    justify-content: space-evenly !important;
+    width: 100%;
+  }
+  .footer .right img {
+    padding-left: 0.5rem !important;
+  }
+  .footer .left p {
+    font-size: 9px;
+  }
+  .footer .left p span {
+    font-size: 24px !important;
+  }
+  .footer .footer-data .navbar-nav .navbar-content .content .hide {
+    display: none !important;
+  }
+
+  .header .text-content h4 {
+    font-size: 18px;
+  }
+  .why .row p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
